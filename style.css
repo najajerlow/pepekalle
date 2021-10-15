@@ -1,3 +1,74 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(34, 196, 142);
+}
+
+.headline {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(173, 129, 7);
+    margin: auto auto auto auto;
+
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4em;
+    grid-template-rows: 4em;
+    background-color: #E6D044;
+}
+
+.icon {
+    width: 4em;
+    float: right;
+}
+.introduction__image {
+    width: 100%;
+}
+.subheading {
+}
+.slider__album {
+    width: 30%;
+}
+.top_albums {
+    float: left;
+}
+.albums__cover {
+    width: 100%;
+}
+.songs {
+    background-image: url("images/img.leaves.jpg");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #E2B217;
+}
+.albums {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    background-color: #EFBA04;
+
+}
+.albums p {
+    margin: 0;
+}
+.dead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dead__description {
+    grid-row: 1/4;
+    grid-column: 2/3;
+    margin: 1em 0 1em 1em;
+    background-color: #F31414;
+}
+.dead img {
+    width: 100%;
+}
+.dead--long {
+    grid-column: span 2;
+}
+
+.photograph {
+    grid-column: 1;
 }
